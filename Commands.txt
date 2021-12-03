@@ -1,0 +1,13 @@
+sudo apt install docker.io
+
+sudo docker run -it influxdb 
+sudo docker start [container_id]
+
+sudo docker run -it telegraf
+sudo docker start [container_id]
+
+sudo docker run -it chronograf
+sudo docker start [container_id]
+
+sudo docker run -it kapacitor
+sudo docker start [container_id]
